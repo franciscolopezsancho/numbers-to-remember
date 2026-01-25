@@ -1,5 +1,8 @@
 # numbers-to-remember
 
+Inpired by Jonas: https://gist.github.com/jboner/2841832
+I always struggled to remember these numbers so here's yet another try. 
+
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════════════╗
 ║                     Latency = the distance you would cover at walking speed * 10^6 (sort of)   ║
