@@ -2,39 +2,39 @@
 
 ```
 ╔════════════════════════════════════════════════════════════════════════════════════════════════╗
-║                    At walking speed * Latency = the distance you would cover (back of napkind) ║
+║                     Latency = the distance you would cover at walking speed * 10^6 (sort of)   ║
 ╚════════════════════════════════════════════════════════════════════════════════════════════════╝
 
 ┌─────────────────────────┬──────────────────┬─────────────────┬──────────────────────────────────────┐
 │ Operation               │ Latency          │ Distance        │ Landmark / Memory                    │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ L1 cache reference      │ 0.5 ns           │ 0.5 mm          │ paper-thin                           │  F1 ?           
+│ L1 cache reference      │ 0.5 ns           │ 0.5 mm          │ paper-thin                           │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Branch mispredict       │ 5 ns             │ 5 mm            │ Grain of rice                        │  branch
+│ Branch mispredict       │ 5 ns             │ 5 mm            │ Grain of rice                        │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ L2 cache reference      │ 7 ns             │ 0,7 cm          │ Pea                                  │  L2 LT lattice (scaffold?)
+│ L2 cache reference      │ 7 ns             │ 0,7 cm          │ Pea                                  │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Mutex lock/unlock       │ 25 ns            │ 2,5 cm          │ An inch                              │  a mutant, a toba
+│ Mutex lock/unlock       │ 25 ns            │ 2,5 cm          │ An inch                              │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Main memory reference   │ 100 ns           │ 10 cm           │ Phone (width)                        │  a main ref, penalty! -- phone on the head
+│ Main memory reference   │ 100 ns           │ 10 cm           │ Phone (width)                        │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Compress 1 KB (Zippy)   │ 3 µs             │ 3 m             │ A car                                │  compressing 1 Kube
+│ Compress 1 KB (Zippy)   │ 3 µs             │ 3 m             │ A car                                │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Send 1 KB over 1 Gbps   │ 10 µs            │ 10 m            │ a bus                                │  1 KuBe over 1 Gb
+│ Send 1 KB over 1 Gbps   │ 10 µs            │ 10 m            │ a bus                                │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Read 4K random SSD      │ 150 µs           │ 150 m           │ Football pitch                       │  TV
+│ Read 4K random SSD      │ 150 µs           │ 150 m           │ Football pitch                       │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Read 1 MB memory        │ 250 µs           │ 250 m           │ 3-minute walk to the store           │  
+│ Read 1 MB memory        │ 250 µs           │ 250 m           │ 3-minute walk to the store           │
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Datacenter RTT          │ 500 µs           │ 500 m           │ Round athletics track                │  someone spinin a data center box
+│ Datacenter RTT          │ 500 µs           │ 500 m           │ Round athletics track                │ 
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Read 1 MB SSD           │ 1 ms             │ 1 km            │ 15-minute walk                       │  
+│ Read 1 MB SSD           │ 1 ms             │ 1 km            │ 15-minute walk                       │ .
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Disk seek               │ 10 ms            │ 10 km           │ 15-minute drive                      │  looking for disk to shoot
+│ Disk seek               │ 10 ms            │ 10 km           │ 15-minute drive                      │ 
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Read 1 MB disk          │ 20 ms            │ 20 km           │ 30-minute drive                      │  a moby-dick cut a disk
+│ Read 1 MB disk          │ 20 ms            │ 20 km           │ 30-minute drive                      │ 
 ├─────────────────────────┼──────────────────┼─────────────────┼──────────────────────────────────────┤
-│ Intercontinental RTT    │ 150 ms           │ 1,500 km        │ 18-hour drive                        │  neo in the intercontinental 
+│ Intercontinental RTT    │ 150 ms           │ 1,500 km        │ 18-hour drive                        │  
 └─────────────────────────┴──────────────────┴─────────────────┴──────────────────────────────────────┘
 ```
 RTT = Round Trip Time
