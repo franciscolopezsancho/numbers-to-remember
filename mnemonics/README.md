@@ -2,13 +2,13 @@
 
 ```
 ├─────────────────────────┼
-│ L1 cache reference      │  Lightning throw a paper          
+│ L1 cache reference      │  Lightning through a paper          
 ├─────────────────────────┼
 │ Branch mispredict       │  Branch full of rice
 ├─────────────────────────┼
 │ L2 cache reference      │  Lazy pea
 ├─────────────────────────┼
-│ Mutex lock/unlock       │  A mutant size of an inch
+│ Mutex lock/unlock       │  A mutant size of an inch, cockcrouch man? 
 ├─────────────────────────┼
 │ Main memory reference   │  A main ref, penalty! -- phone on the head
 ├─────────────────────────┼
